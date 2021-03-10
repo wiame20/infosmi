@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Monsite|QUIZ</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<style type="text/css">
+		.cont{
+				text-align: center;
+				color:white;
+			}
+		.footer{
+			margin-top: 20%
+		}
+		#thanks{
+			display: none;
+		}
+		#quiz_content{
+			display: none
+		}
+		li{
+			width:auto;
+		}
+		#answers{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h2><a href="#">info<span id="high">SMI</span></a></h2>
+		<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="propos.html">A propos</a></li>
+				<li><a href="contact.html">Contact</a></li>
+
+			</ul>
+		<div class="cont">
+			<div>
+			<img src="start!.jpg"  id="start">
+			<img src="merci.jpg" id="thanks">
+			<div id="quiz_content">
+				<h3 id="qs">...</h3>
+				<ul>
+					<li id='a1'>a1</li>
+					<li id='a2'>a2</li>
+					<li id='a3'>a3</li>
+				</ul>
+			</div>
+		</div>
+		<div id="answers">
+			<h2 style="color:rgb(40,240,10); text-decoration: underline;">Correction </h2>
+			<h3>'La language C est une language de niveau ...</h3>
+			<h4> Moyen : Car Il'est facile a utiliser et en meme temps il offer la possibiliter a acceder a des fonctionalites de bas niveau</h4>
+			<br>
+			<br>
+			<h3>Est ce que le meme code assembleur peut s'executer pour toute les machines?</h3>
+			<h4>Non!: Ca depend de l'architecture de l'ordinateur</h4>
+			<br>
+			<br>
+			<h3>Dont ou le temps d'exécution est court?</h3>
+			<h4>Compiler: Car le compilateur transforme le programe en language machine pour une seule fois au contre l'interpreter</h4>
+			<br>
+			<br>
+			<h3>À l'époque, Quelle est la langage de compilation de C?</h3>
+			<h4>B: C'est une langage de programmation qui précède C</h4>
+		</div>
+	<div class="footer">
+		<p>&copy; 2020 realise avec ❤️ par: </p>
+	</div>
+	</div>
+	<script type="text/javascript" src="quizJs.js"></script>
+</body>
+</html>

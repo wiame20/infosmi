@@ -1,0 +1,96 @@
+body{
+	background-color:#435560;
+	font-size:1.2em;
+	font-family:Helvetica;
+	background-image: url("http://www.webestrategica.com.br/web4/wp-content/uploads/2019/02/background-landing-page.jpg")
+
+}
+a{
+	text-decoration:none;
+	color:inherit;
+}
+article{
+	padding-top:30px;
+	color:whitesmoke;
+}
+img{
+	border-radius: 50%;
+	height:200px;
+	width:272px;
+	opacity: 0.4;
+}
+.header{
+	margin:20px;
+}
+.header h2{
+	color:#f5f5f5;
+	font-size:2em;
+
+}
+#high{
+	background-color:#c8c6a7;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 7px;
+	color:white;
+}
+
+.header ul{
+	list-style-type: none;
+	display:inline-block;
+
+}
+
+.header li{
+	display:inline-block;
+	margin:20px;
+	background-color:#c8c6a7;
+	color:white;
+	width:100px;
+	padding:10px;
+	text-align: center;
+	border-radius:20px;
+	
+}
+.header li:hover{
+	background-color:#8d0632 ;
+}
+
+.content{
+	text-align: center;
+
+}
+
+#low{	color:#f5f5f5;
+}
+#hig{
+	color:#f5f5f5;
+
+}
+img:hover{
+	transition: 0.3s;
+	opacity: 1;
+	transform: rotateX(20deg);
+	transform: scale(1.1);
+}
+
+#info_l{
+	width:350px;
+	display: none;
+}
+
+#info_h{
+	display:none;
+}
+
+#quizz{
+	color:#92967d;
+}
+.footer{
+	color:white;
+	font-family: Helvetica;
+	text-align:center;
+	background-color:#6e7c7c;
+	width:auto;
+	position: relative;
+	border-radius:30px;
+}

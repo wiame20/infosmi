@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Monsite|Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<script type="text/javascript"></script>
+</head>
+<body>
+	<div class="header">
+		<h2><a href="#">info<span id="high">SMI</span></a></h2>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="propos.html">A propos</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+	</div>
+			<div class="content">
+				<div class ="lowl">
+				<h3 id="low">Niveau Bas(Low Level):</h3>
+				<img src="lowl.png" id="imgl">
+				<article id="info_l">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</article>
+                </div>
+                <div id="highl">
+				<h3 id="hig">Niveau Haut(High Level):</h3>
+				<img src="highl.jpeg" id="imgh">
+				<article id="info_h">Un langage de haut niveau (HLL) est un langage de programmation tel que C, FORTRAN ou Pascal qui permet à un programmeur d'écrire des programmes plus ou moins indépendants d'un type particulier d'ordinateur.<br><br> Ces langages sont considérés comme de haut niveau car ils sont plus proches des langages humains et plus éloignés des langages machine.</article>
+                </div>
+                <h3 id="quizz">Testez vos informations avec un quiz!</h3>	
+                <div class="quiz_start">
+			<a href="quiz.html"><img src="startQuiz.png"></a>
+			</div>
+		</div>
+	<div class="footer">
+		<p>&copy; 2021 realise avec par: Haroui Wiame <br>code:59097<br>groupe:A02 </p>
+	</div>
+	<script type="text/javascript">
+		var imgLow = document.getElementById('imgl')
+		var low = document.getElementById('info_l')
+		var imgHigh = document.getElementById('imgh')
+		var high = document.getElementById('info_h')
+		imgHigh.addEventListener("click",visible2)
+		imgLow.addEventListener("click", visible1)
+		var l = 0
+		let h = 0
+		function visible1(){
+			l++
+			if((l%2)!=0){
+			low.style.display = "inline-block"
+			imgLow.style.opacity = "1"
+			} else{
+				low.style.display = "none"
+			imgLow.style.opacity = "0.5"
+			}
+			
+		}
+		function visible2(){
+			h++
+			if((h%2)!=0){
+			high.style.display = "inline-block"
+			imgHigh.style.opacity = "1"
+			} else{
+				high.style.display = "none"
+			imgHigh.style.opacity = "0.5"
+			}
+			
+		}
+	</script>
+</body>
+</html>
